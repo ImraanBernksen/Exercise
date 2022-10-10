@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    
+}
+body {
+    background-color: lightblue;
+}
+h1, h2, h3, h4 {
+    text-align: center;
+
+}
+
+header, main, footer {
+    min-width: 100%;
+}
+
+header, footer {
+    background-color: black;
+}
+
+header, .menu-list {
+    display: inline-flex;
+}
+
+header img {
+    width: 10em;
+}
+
+.menu {
+  margin-left: auto;
+  align-self: center;
+}
+.menu-list li {
+padding: 0 5px;
+}
+
+.menu-list {
+    list-style: none;
+}
